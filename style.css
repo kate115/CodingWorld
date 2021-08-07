@@ -9,6 +9,11 @@ body {
 }
 .HeadingBox {
     background-color: rgb(192, 132, 192);
-    border-width: 20px;
+    border: 20px;
     border-radius: 10px;
+}
+.NavBox {
+    border: 5px;
+    border-radius: 10px;
+    border: white;
 }
