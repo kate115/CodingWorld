@@ -2,7 +2,6 @@ body {
     background-color: midnightblue;
     color: whitesmoke;
     font-family: sans-serif;
-    text-align: center;
 }
 .CodingWorldText {
     color: lightseagreen;
@@ -13,10 +12,12 @@ body {
     border-radius: 10px;
 }
 .NavBox {
-    border: 5px;
+    border: 20px;
     border-radius: 10px;
     border: white;
 }
-ul, ol {
-    margin: 0px;
+.OtherBox {
+    background-color: tomato;
+    border: 20px;
+    border-radius: 10px;
 }
