@@ -17,3 +17,6 @@ body {
     border-radius: 10px;
     border: white;
 }
+ul, ol {
+    margin: 0px;
+}
