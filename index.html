@@ -6,13 +6,17 @@
 
         <link rel="stylesheet" href="style.css" />
 
-        <script type="text/javascript" src="./script.js"></script>
-
-
     </head>
     <body>
 
-        <!--The HeadingBox class is for lots of headings. You can fit as many tags in the div as possible-->
+        <!--This is the header. We didn't have one before.-->
+
+        <div class="HeaderBox">
+            <img class="logoImage" src="" />
+            <h1>Coding World!</h1>
+        </div>
+
+        <!--The HeadingBox class is for lots of headings. You can fit as many tags in the div as possible.-->
 
         <div class="HeadingBox">
 
@@ -26,17 +30,38 @@
 
         <div class="NavBox">
 
-        <ul>
+            <ul>
             
-            <li><div class="Category"><a>HTML Course Overview</a></div></li>
+                <li><div class="Category"><a href="htmlcourse.html">HTML Course Overview</a></div></li>
 
-            <li><div class="Category"><a>CSS Course Overview</a></div></li>
+                <li><div class="Category"><a href="csscourse.html">CSS Course Overview</a></div></li>
 
-            <li><div class="Category"><a>Contact Us</a></div></li>
+                <li><div class="Category"><a href="contactus.html">Contact Us</a></div></li>
         
-        </ul>
+            </ul>
 
         </div>
+
+        <h2>Sign in</h2>
+
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Place first name here..."><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Place last name here..."><br>
+            <label for="age">Age:</label><br>
+            <input type="number" id="age" name="age"><br>
+            <select id="gender" name="gender">
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+            </select><br><br>
+            <input type="button" value="Submit" id="submit">
+            <div id="submitText">
+
+            </div>
+        </form> 
+
+        <script type="text/javascript" src="./script.js"></script>
 
     </body>
 </html>
